@@ -1,0 +1,16 @@
+base_page:
+  ignore_button: Ignore
+  update_display: Update Available
+  cancel: Cancel
+
+boss_money:
+  settings_button: Settings
+
+settings:
+  personal_info: Personal Info
+  full_name_label: //android.widget.ImageView/parent::android.view.ViewGroup/following::android.widget.TextView[1]
+
+personal_info:
+  first_name_text: //android.widget.TextView[@text='First name']/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup/descendant::android.widget.EditText
+  last_name_text: //android.widget.TextView[@text='Last name']/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup/descendant::android.widget.EditText
+  save_button: 
