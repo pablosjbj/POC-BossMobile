@@ -1,12 +1,12 @@
 Feature: Change personal info using Boss Money Mobile
 
   Scenario: Change first and last name
-    Given I go to Boss Revolution Money app
+    Given I am on the Boss Money App Screen
     And I verify if exist a update available
-    When I press on Settings button
-    And I press on Personal Info button
-    And I change the personal information with the following data:
+    When I touch the Settings button
+    And I touch the Personal Info button
+    And I use the keyboard on personal information and type:
       | FirstName  | LastName        |
       | Raul Pablo | Ramirez Zegarra |
-    And I press Save button
-    Then The personal information was changed
+    And I touch the Save button
+    Then I should see The personal information was changed

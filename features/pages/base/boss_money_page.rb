@@ -5,7 +5,7 @@ require_relative '../../support/utils/locators/boss_money_page_locators'
 
 class BossMoneyPage < Appium_manager
   def self.settings_button
-    $driver.find_element(:name => BossMoneyPageLocators.settings_button)
+    $driver.find_element(name: BossMoneyPageLocators.settings_button)
   end
 
   def self.click_settings_button

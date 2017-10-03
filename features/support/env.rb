@@ -44,4 +44,8 @@ class Environment
   def self.ios_bundleid
     load_config['iOS']['bundleId']
   end
+
+  def self.app
+    load_config['device']['app']
+  end
 end

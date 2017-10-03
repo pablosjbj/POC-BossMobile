@@ -10,9 +10,9 @@ class Android
         deviceName: Environment.device_name,
         platformName: Environment.platform,
         platformVersion: '6.0',
-        # platformVersion: Environment.platform_version,
         appPackage: Environment.android_package,
-        appActivity: Environment.android_activity
+        appActivity: Environment.android_activity,
+        app: Environment.app
     }
   end
 
