@@ -12,7 +12,7 @@ class Android
         platformVersion: '6.0',
         appPackage: Environment.android_package,
         appActivity: Environment.android_activity,
-        app: Environment.app
+        # app: Environment.app
     }
   end
 

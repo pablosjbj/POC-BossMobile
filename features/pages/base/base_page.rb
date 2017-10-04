@@ -16,7 +16,7 @@ class BasePage < Appium_manager
     if updates_display.displayed?
       CommonActions.click_element ignore_button
     elsif
-      put 'Uploaded not available'
+      print 'Uploaded not available'
     end
   end
 end
